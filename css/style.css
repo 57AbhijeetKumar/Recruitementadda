@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ds-fl{
+    display: flex;
+}
+
+.position{
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+/* Header Section  */
+
+header{
+    /* margin: 1rem; */
+    height: 84px;
+    /* width: 1440px; */
+}
+
+/* Left header  */
+
+.left-items{
+    margin-left: 1rem;
+    /* width: 44.18rem; */
+}
+
+.logo{
+    font-size: 25px;
+}
+
+.list{
+    margin-left: 2rem;
+}
+
+.list li{
+    list-style: none;
+    margin: 2rem
+}
+
+.list li a{
+    text-decoration: none;
+    font-size: 18px
+}
+
+/* right header  */
+
+.right-items{
+    margin-right: 1rem;
+}
+
+
+button{
+    /* border: 2px solid red; */
+    height: 2.39rem;
+    width: 9rem;
+    font-size: 15px;
+    height: 3rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.register{
+    background: linear-gradient(#FF0000 -143.78%, rgba(238, 17, 17, 0.114583) -8.2%, rgba(237, 63, 63, 0.114583) 110.24%, rgba(251, 59, 59, 0.114583) 194.61%);
+
+
+}
+
+.login{
+    background: linear-gradient(93.48deg, #0074FF -143.78%, rgba(0, 116, 255, 0.114583) 47.4%, rgba(0, 116, 255, 0.114583) 101.65%, rgba(0, 116, 255, 0.114583) 194.61%, rgba(0, 116, 255, 0) 213.2%);
+
+
+}
+
+.profile{
+    justify-content: center;
+    align-items: center;
+}
+
+.notification{
+    margin: 0 1rem 0 1rem;
+}
+
+/* Section 1 Styleing */
+
+.Container{
+    /* height: 39.25rem; */
+    /* width: 1440px; */
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#588CF1 68.54%, rgba(88, 140, 241, 0) 100%);
+}
+
+/* left section 1  */
+
+.left{
+    height: 329px;
+    /* margin: 78px 860px 129px 172px; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heading h1{
+    
+}
+
+.content{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* right section 1  */
+
+.right{
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(97.61% 55.99% at 50.15% 44.01%, rgba(22, 81, 123, 0.69) 0%, #1E1A36 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    margin-right: 160px;
+    margin-top: 200px;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.form-head{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.forms{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forms h4{
+    font-size: 25px;
+    margin-top: 18px;
+    color: white;
+}
+
+.forms input{
+    width: 242px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.forms button{
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/* Section 2 Styling */
+
+.video-part{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.top h1{
+
+}
+
+.middle{
+    margin-top: 15px;
+}
+
+.down{
+    margin-top: 20px;
+}
+
+.down li{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Footer styleing */
+
+.footer{
+    margin-top: 1rem;
+    background: linear-gradient(#588CF1 92.88%, rgba(88, 140, 241, 0.0572917) 100%, rgba(88, 140, 241, 0) 100%);
+    height: 300px;
+}
+
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.footer-left-top{
+    display: flex;
+    /* margin-top: 40px;
+    margin-left: 150px; */
+}
+
+.footer-left-top h3{
+    margin-left: 10px;
+    color: white;
+}
+
+.footer-middle{
+    margin-top: 1rem;
+}
+
+.footer-down{
+    display: flex;
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+}
+
+.footer-down object{
+    margin-left: 1rem;
+}
+
+.right-footer{
+    margin: auto;
+}
+
+.links{
+    margin-left: 8rem;
+    color: white;
+}
+
+.links h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.anchor{
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor a{
+    text-decoration: none;
+    color: white;
+    margin-top: 2rem;
+    font-size: 15px;
+}
+
+.contact-content a{
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
