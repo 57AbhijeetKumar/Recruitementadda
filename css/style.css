@@ -268,6 +268,18 @@ button{
 
 /* About Us Page */
 
+.section-1{
+    position: relative;
+}
+
+.section-1 h1{
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    font-size: 3rem;
+    color: white;
+}
+
 .image{
     width: 100%;
 }
@@ -300,6 +312,7 @@ button{
 .item-who li{
     text-align: left;
     margin-top: 1rem;
+    margin-left: 1.5rem;
 }
 
 .item-aim{
@@ -320,14 +333,73 @@ button{
 .item-aim li{
     text-align: left;
     margin-top: 1rem;
+    margin-left: 1.5rem;
 }
 
 /* team styling */
 
+.section-3{
+    position: relative;
+    display: flex;
+}
 
-
-.section-3 h2{
-    text-align: center;
+.section-3 h1{
+    position: absolute;
+    top: 1rem;
+    left: 720px;
+    font-size: 2rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+}
+
+.aman-sir{
+    position: absolute;
+    top: 61px;
+    left: 69px;
+    width: 374px;
+    height: 500px;
+    margin: 61px 1010px 62px 69px;
+    background: #EEEEEE;
+    border-radius: 15px;
+}
+
+.aman-sir object{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.aman-sir h3{
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.about-team{
+    width: 344px;
+    height: 182px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.anjani-sir{
+    position: absolute;
+    top: 61px;
+    left: 539px;
+    width: 374px;
+    height: 500px;
+    margin: 61px 1010px 62px 69px;
+    background: #EEEEEE;
+    border-radius: 15px;
+}
+
+.mansi-mam{
+    position: absolute;
+    top: 61px;
+    left: 1011px;
+    width: 374px;
+    height: 500px;
+    margin: 61px 1010px 62px 69px;
+    background: #EEEEEE;
+    border-radius: 15px;
 }
