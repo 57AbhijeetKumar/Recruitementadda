@@ -129,7 +129,7 @@ button{
 .right{
     justify-content: center;
     align-items: center;
-    background: radial-gradient(97.61% 55.99% at 50.15% 44.01%, rgba(22, 81, 123, 0.69) 0%, #1E1A36 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background: radial-gradient(97.61% 55.99% at 50.15% 44.01%, rgba(22, 81, 123, 0.69) 0%, #1E1A36 100%) ;
     margin-right: 160px;
     margin-top: 200px;
     width: 700px;
@@ -402,4 +402,139 @@ button{
     margin: 61px 1010px 62px 69px;
     background: #EEEEEE;
     border-radius: 15px;
+}
+
+/* Career Page  */
+
+.img-sec-1{
+    width: 100%;
+}
+
+.section-2-career{
+    width: 100%;
+    height: 464px;
+    display: flex;
+}
+
+.left-career{
+    margin-left: 145px;
+    margin-top: 3rem;
+    width: 17rem;
+}
+
+.left-career h3{
+    text-align: center;
+}
+
+.left-career h1{
+    margin-top: 1rem;
+}
+
+.left-career p{
+    margin-top: 1rem;
+}
+
+.right-career{
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+
+.upper-team-work{
+    display: flex;
+}
+
+.secure{
+    margin-left: 4rem;
+}
+
+.upper-team-work p{
+    width: 15rem;
+}
+
+.lower-team-work{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.upgrade{
+    margin-left: 4rem;
+}
+
+.lower-team-work p{
+    width: 15rem;
+}
+
+.section-3-career{
+    background: #D4D4D4;
+    height: 984px;
+}
+
+.content-career-opening{
+    text-align: center;
+    width: 50rem;
+    margin-left: 22rem;
+    margin-top: 1rem;
+}
+
+.content-career-opening h3{
+    /* margin-top: 1rem; */
+}
+
+.freelance{
+    display: flex;
+    margin-left: 3.5rem;
+    width: 673px;
+    height: 100px;
+    background-color: white;
+    margin-top: 0.5rem;
+}
+
+.freelance h5{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.experiance{
+    margin-left: 3rem;
+    text-align: center;
+}
+
+.deadline{
+    margin-left: 3rem;
+}
+
+.content-writter{
+    display: flex;
+    margin-left: 3.5rem;
+    width: 673px;
+    height: 100px;
+    background-color: white;
+    margin-top: 0.5rem;
+}
+
+.digital-market{
+    display: flex;
+    margin-left: 3.5rem;
+    width: 673px;
+    height: 100px;
+    background-color: white;
+    margin-top: 0.5rem;
+}
+
+.freelance-r{
+    display: flex;
+    margin-left: 3.5rem;
+    width: 673px;
+    height: 100px;
+    background-color: white;
+    margin-top: 0.5rem;
+}
+
+.node{
+    display: flex;
+    margin-left: 3.5rem;
+    width: 673px;
+    height: 100px;
+    background-color: white;
+    margin-top: 0.5rem;
 }
