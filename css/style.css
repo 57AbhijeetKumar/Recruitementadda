@@ -104,6 +104,9 @@ button{
 
 .left{
     height: 329px;
+    width: 408px;
+    margin-top: 78px;
+    margin-left: 172px;
     /* margin: 78px 860px 129px 172px; */
     justify-content: center;
     align-items: center;
@@ -125,15 +128,16 @@ button{
     margin-top: 30px;
 }
 
+
 /* right section 1  */
 
 .right{
     justify-content: center;
     align-items: center;
     background: radial-gradient(97.61% 55.99% at 50.15% 44.01%, rgba(22, 81, 123, 0.69) 0%, #1E1A36 100%) ;
-    margin-right: 160px;
-    margin-top: 200px;
-    width: 700px;
+    margin-right: 164px;
+    margin-top: 228px;
+    width: 304px;
     height: 400px;
     border-radius: 10px;
 }
@@ -187,11 +191,12 @@ button{
 
 .down{
     margin-top: 20px;
+    margin-left: 200px;
 }
 
 .down li{
     margin-top: 10px;
-    text-align: center;
+    text-align: start;
 }
 
 /* Footer styleing */
