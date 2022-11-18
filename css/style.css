@@ -23,6 +23,7 @@
 header{
     /* margin: 1rem; */
     height: 84px;
+    width: 100vw;
     /* width: 1440px; */
 }
 
@@ -93,7 +94,7 @@ button{
 
 .Container{
     /* height: 39.25rem; */
-    /* width: 1440px; */
+    width: 100vw;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(#588CF1 68.54%, rgba(88, 140, 241, 0) 100%);
@@ -169,6 +170,7 @@ button{
 /* Section 2 Styling */
 
 .video-part{
+    width: 100vw;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -195,6 +197,7 @@ button{
 /* Footer styleing */
 
 .footer{
+    width: 100vw;
     margin-top: 1rem;
     background: linear-gradient(#588CF1 92.88%, rgba(88, 140, 241, 0.0572917) 100%, rgba(88, 140, 241, 0) 100%);
     height: 300px;
@@ -270,6 +273,7 @@ button{
 
 .section-1{
     position: relative;
+    width: 100vw;
 }
 
 .section-1 h1{
@@ -285,6 +289,7 @@ button{
 }
 
 .section-2{
+    width: 100vw;
     background: #D9D9D9;
     margin-top: -1rem;
 }
@@ -339,6 +344,7 @@ button{
 /* team styling */
 
 .section-3{
+    width: 100vw;
     position: relative;
     display: flex;
 }
@@ -406,12 +412,13 @@ button{
 
 /* Career Page  */
 
-.img-sec-1{
-    width: 100%;
+.section-1-career{
+    width: 100vw;
 }
 
+
 .section-2-career{
-    width: 100%;
+    width: 100vw;
     height: 464px;
     display: flex;
 }
@@ -465,6 +472,7 @@ button{
 }
 
 .section-3-career{
+    width: 100vw;
     background: #D4D4D4;
     height: 984px;
 }
