@@ -417,7 +417,7 @@ button{
 
 /* Career Page  */
 
-.section-1-career{
+.career-img{
     width: 100vw;
 }
 
@@ -480,6 +480,7 @@ button{
     width: 100vw;
     background: #D4D4D4;
     height: 984px;
+    position: relative;
 }
 
 .content-career-opening{
@@ -487,10 +488,21 @@ button{
     width: 50rem;
     margin-left: 22rem;
     margin-top: 1rem;
+    position: absolute;
 }
 
 .content-career-opening h3{
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
+}
+
+.content-career-opening h1{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.content-career-opening p{
+    margin-top: 1rem;
 }
 
 .freelance{
@@ -508,12 +520,12 @@ button{
 }
 
 .experiance{
-    margin-left: 3rem;
+    margin-left: 4rem;
     text-align: center;
 }
 
 .deadline{
-    margin-left: 3rem;
+    margin-left: 5rem;
 }
 
 .content-writter{
@@ -523,6 +535,10 @@ button{
     height: 100px;
     background-color: white;
     margin-top: 0.5rem;
+}
+
+.content-writter-head{
+    margin-left: 7rem;
 }
 
 .digital-market{
@@ -550,4 +566,63 @@ button{
     height: 100px;
     background-color: white;
     margin-top: 0.5rem;
+}
+
+/* Service Page  */
+
+.service-img{
+    width: 100vw;
+}
+
+.first{
+    width: 100vw;
+}
+
+.second{
+    width: 100vw;
+}
+
+.head{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.for{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.employeers h2{
+    margin-left: 10rem;
+}
+
+.candidate h2{
+    margin-left: 10rem;
+}
+
+.service-name{
+    display: flex;
+    margin-top: 3rem;
+    width: 551px;
+    height: 244px;
+    background: linear-gradient( #4B95DA 0%, rgba(206, 169, 202, 0) 100%);
+    border-radius: 20px;
+}
+
+.logo-service{
+    margin-left: 3.5rem;
+    margin-top: 5rem;
+}
+
+
+
+.service-name-desc{
+    margin-left: 3rem;
+    margin-top: 3.5rem;
+}
+
+.service-name-desc p{
+    margin-top: 1rem;
 }
