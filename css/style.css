@@ -626,3 +626,185 @@ button{
 .service-name-desc p{
     margin-top: 1rem;
 }
+
+/* Cources page  */
+
+.one{
+    margin-top: 2rem;
+}
+
+.input{
+    margin-left: 10rem;
+    width: 810px;
+    height: 3rem;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+
+.search{
+    position: relative;
+    left: 11rem;
+    top: 1rem;
+}
+
+.courses{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 4rem;
+}
+
+.left-courses{
+    margin-left: 2rem;
+}
+
+
+
+.small{
+    display: flex;
+    /* margin-left: 1rem; */
+}
+
+.new{
+    display: flex;
+    border: 2px solid #F6C648;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 1rem;
+    width: 140px;
+    height: 40px;
+}
+
+.text{
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.border-new{
+    padding: 5px;
+    border-radius: 50px;
+    background: #F6C648;
+
+}
+
+.free{
+    display: flex;
+    border: 2px solid #15BE4F;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 140px;
+    height: 40px;
+}
+
+.border-free{
+    padding: 5px;
+    border-radius: 50px;
+    background: #15BE4F;
+    
+}
+
+.popular{
+    display: flex;
+    border: 2px solid #007DD8;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 140px;
+    height: 40px;
+}
+
+.border-popular{
+    padding: 5px;
+    border-radius: 50px;
+    background: #007DD8;
+
+}
+
+.paid{
+    display: flex;
+    border: 2px solid #C565C7;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 140px;
+    height: 40px;
+}
+
+.border-paid{
+    padding: 5px;
+    border-radius: 50px;
+    background: #C565C7;
+
+}
+
+.upcomming{
+    display: flex;
+    border: 2px solid #EC7D2D;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 170px;
+    height: 40px;
+}
+
+.border-upcomming{
+    padding: 5px;
+    border-radius: 50px;
+    background: #EC7D2D;
+
+}
+
+.card-1{
+    display: flex;
+    width: 250px;
+    height: 241px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    margin-top: 5rem;
+}
+
+.margin{
+    margin-left: 8rem;
+}
+
+.ui-upper{
+    display: flex;
+}
+
+.ui-middle{
+    margin-top: 0.5rem;
+}
+
+.ui-lower{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.m1{
+    margin-left: 2rem;
+}
+
+.card-2{
+    display: flex;
+    width: 250px;
+    height: 241px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.m-b{
+    margin-top: 3px;
+}
+
+.load-btn{
+    border-radius: 20px;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    text-align: center;
+}
