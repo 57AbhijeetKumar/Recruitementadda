@@ -662,6 +662,7 @@ button{
 
 .small{
     display: flex;
+    cursor: pointer;
     /* margin-left: 1rem; */
 }
 
@@ -772,6 +773,10 @@ button{
     margin-left: 8rem;
 }
 
+.ui{
+    cursor: pointer;
+}
+
 .ui-upper{
     display: flex;
 }
@@ -807,4 +812,21 @@ button{
     margin-left: 20rem;
     margin-top: 2rem;
     text-align: center;
+}
+
+.master-front{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.content-upcoming{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 52px;
+    margin-left: 1rem;
+}
+
+.favourite h2{
+    margin-top: 3rem;
 }
