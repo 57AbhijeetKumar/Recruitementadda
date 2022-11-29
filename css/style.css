@@ -69,15 +69,17 @@ button{
     cursor: pointer;
 }
 
+
+
 .register{
     background: linear-gradient(#FF0000 -143.78%, rgba(238, 17, 17, 0.114583) -8.2%, rgba(237, 63, 63, 0.114583) 110.24%, rgba(251, 59, 59, 0.114583) 194.61%);
-
+    border-radius: 10px;
 
 }
 
 .login{
     background: linear-gradient(93.48deg, #0074FF -143.78%, rgba(0, 116, 255, 0.114583) 47.4%, rgba(0, 116, 255, 0.114583) 101.65%, rgba(0, 116, 255, 0.114583) 194.61%, rgba(0, 116, 255, 0) 213.2%);
-
+    border-radius: 10px;
 
 }
 
