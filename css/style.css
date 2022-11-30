@@ -275,6 +275,19 @@ button{
     text-align: center;
 }
 
+.down-footer{
+    background-color: black;
+    color: white;
+    height: 1.5rem;
+    margin-top: -1rem;
+    width: 100vw;
+}
+
+.down-footer h6{
+    text-align: center;
+    align-items: center;
+}
+
 
 /* About Us Page */
 
@@ -367,7 +380,6 @@ button{
 .aman-sir{
     position: absolute;
     top: 61px;
-    left: 69px;
     width: 374px;
     height: 500px;
     margin: 61px 1010px 62px 69px;
@@ -398,7 +410,7 @@ button{
 .anjani-sir{
     position: absolute;
     top: 61px;
-    left: 539px;
+    left: 480px;
     width: 374px;
     height: 500px;
     margin: 61px 1010px 62px 69px;
@@ -409,7 +421,7 @@ button{
 .mansi-mam{
     position: absolute;
     top: 61px;
-    left: 1011px;
+    left: 950px;
     width: 374px;
     height: 500px;
     margin: 61px 1010px 62px 69px;
